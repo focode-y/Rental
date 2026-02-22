@@ -1,4 +1,4 @@
-﻿const year = document.getElementById("year");
+const year = document.getElementById("year");
 if (year) year.textContent = String(new Date().getFullYear());
 
 const FORM_RECEIVER_EMAIL = "admin@trytry.jp";
@@ -17,8 +17,8 @@ const i18n = {
     lang_1: "日语", lang_2: "英语", lang_3: "普通话和粤语", lang_4: "繁体中文", lang_5: "韩语", lang_6: "法语", lang_7: "波兰语", lang_8: "马来语",
     bench_title: "大阪在管30+房源｜运营实绩", case_title: "真实案例", reviews_title: "客户评价", bench_note: "说明：以下为基于客户评价主题整理的文字版样例，可替换为你自己的真实评论与数据。",
     faq_title: "常见问题", f1_q: "业主不在日本，能管好吗？", f1_a: "可以。你远程决策，我们在大阪本地执行交付，周报同步经营数据。", f2_q: "多久能进入稳定收益期？", f2_a: "通常上线后 1-2 个月进入稳定区间，建议以 90 天作为完整评估周期。", f3_q: "费用如何计算？", f3_a: "采用基础管理费 + 绩效提成组合，按房型、位置和目标客群定价。",
-    contact_title: "提交大阪房源信息，48小时内给你执行方案", contact_sub: "支持中文 / 日本語 / English。表单将直接发送到你的接收邮箱。", contact_hint: "提示：把 script.js 中 FORM_RECEIVER_EMAIL 改成你的真实邮箱即可接收咨询。", form_name: "姓名", form_contact: "联系方式", form_asset: "房源信息", form_btn: "提交咨询",
-    status_sending: "正在提交，请稍候...", status_ok: "提交成功，我们会尽快联系你。", status_fail: "提交失败，请稍后重试或更换网络。", status_invalid: "请先完整填写必填项。", status_email: "请先在 script.js 中配置 FORM_RECEIVER_EMAIL。"
+    contact_title: "提交大阪房源信息，48小时内给你执行方案", contact_sub: "支持中文 / 日本語 / English。表单将直接发送到你的接收邮箱。", form_name: "姓名", form_contact: "联系方式", form_asset: "房源信息", form_btn: "提交咨询",
+    status_sending: "正在提交，请稍候...", status_ok: "提交成功，我们会尽快联系你。", status_fail: "提交失败，请稍后重试或更换网络。", status_invalid: "请先完整填写必填项。"
   },
   ja: {
     nav_services: "サービス", nav_advantage: "強み", nav_process: "流れ", nav_faq: "FAQ", nav_cta: "無料相談",
@@ -33,8 +33,8 @@ const i18n = {
     lang_1: "日本語", lang_2: "英語", lang_3: "中国語（普通話・広東語）", lang_4: "繁体字中国語", lang_5: "韓国語", lang_6: "フランス語", lang_7: "ポーランド語", lang_8: "マレー語",
     bench_title: "大阪30件超の運営実績", case_title: "実際の事例", reviews_title: "顧客レビュー", bench_note: "注記：以下はレビュー内容の要点を整理したテキスト例で、実レビューに差し替え可能です。",
     faq_title: "よくある質問", f1_q: "オーナーが日本にいなくても運営可能ですか？", f1_a: "可能です。意思決定は遠隔で、実行は大阪現地で行います。", f2_q: "安定収益までの目安は？", f2_a: "通常は運用開始後1-2か月で安定化し、90日で評価します。", f3_q: "料金体系は？", f3_a: "基本管理費 + 成果連動で、物件条件に応じて設計します。",
-    contact_title: "大阪物件情報を送信ください。48時間以内に実行案を提示", contact_sub: "中文 / 日本語 / English 対応。フォームは直接メール送信されます。", contact_hint: "ヒント：script.js の FORM_RECEIVER_EMAIL を実際のメールに変更してください。", form_name: "お名前", form_contact: "連絡先", form_asset: "物件情報", form_btn: "送信",
-    status_sending: "送信中です。少々お待ちください...", status_ok: "送信完了しました。担当よりご連絡します。", status_fail: "送信に失敗しました。時間をおいて再試行してください。", status_invalid: "必須項目を入力してください。", status_email: "先に script.js の FORM_RECEIVER_EMAIL を設定してください。"
+    contact_title: "大阪物件情報を送信ください。48時間以内に実行案を提示", contact_sub: "中文 / 日本語 / English 対応。フォームは直接メール送信されます。", form_name: "お名前", form_contact: "連絡先", form_asset: "物件情報", form_btn: "送信",
+    status_sending: "送信中です。少々お待ちください...", status_ok: "送信完了しました。担当よりご連絡します。", status_fail: "送信に失敗しました。時間をおいて再試行してください。", status_invalid: "必須項目を入力してください。"
   },
   en: {
     nav_services: "Services", nav_advantage: "Advantages", nav_process: "Process", nav_faq: "FAQ", nav_cta: "Consult",
@@ -49,8 +49,8 @@ const i18n = {
     lang_1: "Japanese", lang_2: "English", lang_3: "Mandarin & Cantonese", lang_4: "Traditional Chinese", lang_5: "Korean", lang_6: "French", lang_7: "Polish", lang_8: "Malay",
     bench_title: "30+ Managed Units in Osaka | Operating Proof", case_title: "Real Cases", reviews_title: "Customer Reviews", bench_note: "Note: the review section below is a text-form summary and can be replaced with your verified guest reviews.",
     faq_title: "FAQ", f1_q: "Can this work if the owner is overseas?", f1_a: "Yes. You approve key decisions remotely; we execute operations on-site in Osaka.", f2_q: "How long to reach stable performance?", f2_a: "Most units stabilize within 1-2 months after launch, measured over a 90-day cycle.", f3_q: "How is pricing structured?", f3_a: "Base management fee plus performance component, tailored by asset profile.",
-    contact_title: "Send your Osaka property brief. We reply within 48 hours.", contact_sub: "Chinese / Japanese / English support. Form submissions are delivered to your email.", contact_hint: "Tip: update FORM_RECEIVER_EMAIL in script.js with your real mailbox.", form_name: "Name", form_contact: "Contact", form_asset: "Property Brief", form_btn: "Submit",
-    status_sending: "Submitting, please wait...", status_ok: "Submitted successfully. We will contact you soon.", status_fail: "Submission failed. Please try again later.", status_invalid: "Please fill in all required fields.", status_email: "Please configure FORM_RECEIVER_EMAIL in script.js first."
+    contact_title: "Send your Osaka property brief. We reply within 48 hours.", contact_sub: "Chinese / Japanese / English support. Form submissions are delivered to your email.", form_name: "Name", form_contact: "Contact", form_asset: "Property Brief", form_btn: "Submit",
+    status_sending: "Submitting, please wait...", status_ok: "Submitted successfully. We will contact you soon.", status_fail: "Submission failed. Please try again later.", status_invalid: "Please fill in all required fields."
   }
 };
 
@@ -138,7 +138,7 @@ async function submitLeadForm(event) {
   const form = event.currentTarget;
 
   if (!FORM_RECEIVER_EMAIL || FORM_RECEIVER_EMAIL.includes("your-email")) {
-    setStatus("status_email", "error");
+    setStatus("status_fail", "error");
     return;
   }
 

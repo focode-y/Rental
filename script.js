@@ -6,10 +6,11 @@ const GA_MEASUREMENT_ID = "G-XXXXXXXXXX";
 
 const i18n = {
   zh: {
-    nav_services: "服务", nav_advantage: "优势", nav_process: "流程", nav_faq: "FAQ", nav_cta: "预约咨询",
+    nav_services: "服务", nav_advantage: "优势", nav_pricing: "价格", nav_process: "流程", nav_faq: "FAQ", nav_cta: "预约咨询",
     hero_title: "大阪民宿代运营、合规运营<br/>收益最大化一站式服务", hero_sub: "我们只做大阪。围绕法令合规、平台运营、保洁品控、财务复盘四个模块，为海外业主提供可执行、可追踪、可交付的民宿经营方案。", hero_cta_1: "获取大阪方案", hero_cta_2: "查看30+在管实绩",
     hero_k1_t: "90天启动窗口", hero_k1_d: "按周里程碑推进，明确每个交付节点。", hero_k2_t: "多平台集中管控", hero_k2_d: "统一管理库存、房态、房价与渠道策略。", hero_k3_t: "大阪本地执行", hero_k3_d: "清扫、巡检、补给、突发处理全链路落地。",
     services_title: "大阪专属民宿代理服务", s1_t: "开业与合规", s1_d: "物业可行性评估、合规路径建议、空间配置与上线资料制作。", s2_t: "日常运营", s2_d: "客服应答、入住引导、保洁排班、异常工单、评价管理。", s3_t: "收益管理", s3_d: "动态定价、节假日策略、连住规则与淡季入住提升。",
+    pricing_eyebrow: "Transparent Pricing",
     adv_title: "透明定价，按服务内容灵活配置", adv_sub: "不同项目的规模、定位与收益不同，我们将根据需求，为您制定运营方案与费用结构。", adv_l1: "采用按实际房费收入比例计费的模式", adv_l2: "根据服务内容与管理深度不同，灵活配置", adv_l3: "费用通常为房费收入的25%-35%",
     panel_t: "大阪标准托管包", panel_d: "适合计划长期持有大阪民宿资产的业主", panel_l1: "开业清单与预算模型", panel_l2: "OTA上线与房态系统搭建", panel_l3: "客服与保洁SOP执行", panel_l4: "月度经营复盘与调价建议", panel_cta: "预约大阪资产评估",
     process_title: "合作流程", p1_t: "资产诊断", p1_d: "确认大阪区域、面积、物业约束与收益目标。", p2_t: "方案报价", p2_d: "输出开业计划、预算区间、代运营费率。", p3_t: "上线运营", p3_d: "完成上架、接待、客服、保洁与巡检体系。", p4_t: "持续增收", p4_d: "按周看数据，按月调策略，按季升级产品。",
@@ -30,11 +31,12 @@ const i18n = {
     status_sending: "正在提交，请稍候...", status_ok: "提交成功，我们会尽快联系你。", status_fail: "提交失败，请稍后重试或更换网络。", status_invalid: "请先完整填写必填项。"
   },
   ja: {
-    nav_services: "サービス", nav_advantage: "強み", nav_process: "流れ", nav_faq: "FAQ", nav_cta: "無料相談",
+    nav_services: "サービス", nav_advantage: "強み", nav_pricing: "料金", nav_process: "流れ", nav_faq: "FAQ", nav_cta: "無料相談",
     hero_title: "大阪民泊運営代行<br/>法令対応と収益改善を一体で", hero_sub: "大阪エリアに特化した運営代行。法令対応、OTA運用、清掃品質、収益分析を統合し、実行可能な運営体制を提供します。", hero_cta_1: "大阪向け提案を受ける", hero_cta_2: "30件超の運営実績を見る",
     hero_k1_t: "90日で運用開始", hero_k1_d: "週次マイルストーンで進行管理。", hero_k2_t: "複数OTAを一元管理", hero_k2_d: "在庫、価格、販売戦略を統合。", hero_k3_t: "大阪現地チーム", hero_k3_d: "清掃、巡回、補充、緊急対応を現地で実施。",
     services_title: "大阪特化の民泊運営サービス", s1_t: "開業・法令対応", s1_d: "物件診断、法令ルート設計、空間準備、掲載素材制作。", s2_t: "日次オペレーション", s2_d: "ゲスト対応、チェックイン案内、清掃手配、異常対応、レビュー管理。", s3_t: "収益マネジメント", s3_d: "動的価格、繁忙期施策、連泊ルール、閑散期対策。",
-    adv_title: "大阪単一都市運営で、安定稼働を実現", adv_sub: "人員、サプライチェーン、運営モデルを大阪に集中し、実行速度と品質の一貫性を高めます。", adv_l1: "週次可視化：稼働率・ADR・RevPAR", adv_l2: "大阪商圏別戦略：難波・心斎橋・梅田", adv_l3: "繁閑連動：価格と最低宿泊条件を同時最適化",
+    pricing_eyebrow: "Transparent Pricing",
+    adv_title: "透明な料金設計、サービス内容に応じて柔軟に構成", adv_sub: "物件ごとに規模・ポジション・収益目標が異なるため、実際のニーズに合わせて運営プランと料金体系を設計します。", adv_l1: "実際の宿泊売上に対する割合で料金を設定", adv_l2: "提供範囲と管理深度に応じて柔軟に調整", adv_l3: "費用の目安は宿泊売上の25%-35%",
     panel_t: "大阪標準運営パッケージ", panel_d: "大阪資産を中長期運用したいオーナー向け", panel_l1: "開業チェックリストと予算", panel_l2: "OTA掲載と在庫システム", panel_l3: "ゲスト対応・清掃SOP", panel_l4: "月次レビューと価格改善", panel_cta: "大阪資産診断を予約",
     process_title: "導入フロー", p1_t: "資産診断", p1_d: "大阪内の立地、面積、制約、目標収益を確認。", p2_t: "提案・見積", p2_d: "開業計画、予算、手数料を提示。", p3_t: "運営開始", p3_d: "掲載、受け入れ、清掃、運営体制を稼働。", p4_t: "継続改善", p4_d: "週次分析、月次調整、四半期改善。",
     ops_title: "すべてお任せください。準備から運営まで",
@@ -54,11 +56,12 @@ const i18n = {
     status_sending: "送信中です。少々お待ちください...", status_ok: "送信完了しました。担当よりご連絡します。", status_fail: "送信に失敗しました。時間をおいて再試行してください。", status_invalid: "必須項目を入力してください。"
   },
   en: {
-    nav_services: "Services", nav_advantage: "Advantages", nav_process: "Process", nav_faq: "FAQ", nav_cta: "Consult",
+    nav_services: "Services", nav_advantage: "Advantages", nav_pricing: "Pricing", nav_process: "Process", nav_faq: "FAQ", nav_cta: "Consult",
     hero_title: "Osaka Minpaku Management<br/>Compliance-led launch, revenue-led growth", hero_sub: "We focus on Osaka only. Our integrated model combines legal setup, OTA operations, cleaning QA, and performance analytics for consistent execution.", hero_cta_1: "Get Osaka Proposal", hero_cta_2: "View 30+ Managed Results",
     hero_k1_t: "90-day launch window", hero_k1_d: "Weekly milestones with clear deliverables.", hero_k2_t: "Unified OTA control", hero_k2_d: "Centralized inventory, pricing, and channel strategy.", hero_k3_t: "On-ground Osaka team", hero_k3_d: "Cleaning, inspections, replenishment, and incident response.",
     services_title: "Osaka-Focused Management Services", s1_t: "Opening & Compliance", s1_d: "Feasibility check, compliance route, setup planning, listing assets.", s2_t: "Daily Operations", s2_d: "Guest messaging, check-in flow, cleaning schedule, issue handling, review ops.", s3_t: "Revenue Management", s3_d: "Dynamic pricing, holiday playbook, length-of-stay rules, low-season demand lift.",
-    adv_title: "Single-city depth delivers stable operations", adv_sub: "By concentrating team, vendors, and playbooks in Osaka, we improve speed, consistency, and accountability.", adv_l1: "Weekly KPIs: Occupancy, ADR, RevPAR", adv_l2: "Submarket strategy: Namba, Shinsaibashi, Umeda", adv_l3: "Peak/off-peak optimization across rates and stay rules",
+    pricing_eyebrow: "Transparent Pricing",
+    adv_title: "Transparent Pricing, Flexible by Service Scope", adv_sub: "Each project differs in scale, positioning, and revenue goals, so we tailor the operating plan and fee structure to your actual needs.", adv_l1: "Fees are calculated as a percentage of actual room revenue", adv_l2: "Flexibly configured by service scope and management depth", adv_l3: "Typical fee range: 25%-35% of room revenue",
     panel_t: "Osaka Standard Pack", panel_d: "For owners building long-term Osaka STR assets", panel_l1: "Opening checklist and budget model", panel_l2: "OTA launch and inventory setup", panel_l3: "Guest and cleaning SOP delivery", panel_l4: "Monthly reviews and pricing actions", panel_cta: "Book Osaka Asset Review",
     process_title: "Engagement Process", p1_t: "Asset Diagnosis", p1_d: "Define Osaka location, constraints, and revenue target.", p2_t: "Proposal", p2_d: "Launch plan, budget range, and management fee model.", p3_t: "Go Live", p3_d: "Listings, support, cleaning, and inspection systems live.", p4_t: "Scale Revenue", p4_d: "Weekly analytics, monthly optimization, quarterly upgrades.",
     ops_title: "Leave Everything to Us, From Setup to Operations",

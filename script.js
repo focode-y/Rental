@@ -1,7 +1,7 @@
 ﻿const year = document.getElementById("year");
 if (year) year.textContent = String(new Date().getFullYear());
 
-const FORM_RECEIVER_EMAIL = "xiaoyawang582@gmail.com";
+const FORM_RECEIVER_EMAIL = "admin@trytry.jp";
 const GA_MEASUREMENT_ID = "G-XXXXXXXXXX";
 
 const i18n = {

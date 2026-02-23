@@ -149,9 +149,20 @@ h1 { font-size: clamp(1.65rem, 4vw, 2.9rem); margin: 14px 0; }
 .unit-image-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .unit-desc { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .review-grid { margin-top: 10px; }
+.review-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 190px;
+}
 .review-card p { margin: 8px 0 0; }
 .review-quote { font-size: 0.98rem; line-height: 1.6; color: #374151; }
-.review-source { color: var(--muted); font-weight: 700; font-size: 0.9rem; }
+.review-source {
+  color: var(--muted);
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-top: auto;
+  text-align: right;
+}
 .lang-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 14px; }
 .lang-item { background: var(--card); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); padding: 16px 10px; text-align: center; }
 .flag-img { width: 52px; height: 36px; object-fit: cover; border-radius: 6px; border: 1px solid #d1d5db; display: block; margin: 0 auto; }

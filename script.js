@@ -1,7 +1,7 @@
 ﻿const year = document.getElementById("year");
 if (year) year.textContent = String(new Date().getFullYear());
 
-const FORM_RECEIVER_EMAIL = "admin@trytry.jp";
+const FORM_RECEIVER_EMAIL = "xiaoyawang582@gmail.com";
 const GA_MEASUREMENT_ID = "G-XXXXXXXXXX";
 
 const i18n = {
@@ -161,51 +161,24 @@ function setStatus(key, type) {
   status.textContent = i18n[currentLang][key] || "";
 }
 
-async function submitLeadForm(event) {
-  event.preventDefault();
-  const form = event.currentTarget;
-
-  if (!FORM_RECEIVER_EMAIL) {
-    setStatus("status_fail", "error");
-    return;
-  }
-
-  if (!form.checkValidity()) {
-    setStatus("status_invalid", "error");
-    form.reportValidity();
-    return;
-  }
-
-  const endpoint = `https://formsubmit.co/ajax/${encodeURIComponent(FORM_RECEIVER_EMAIL)}`;
-  const formData = new FormData(form);
-  formData.append("_subject", "Rental Osaka New Lead");
-  formData.append("_captcha", "false");
-  formData.append("_template", "table");
-
-  setStatus("status_sending", "pending");
-
-  try {
-    const res = await fetch(endpoint, {
-      method: "POST",
-      body: formData,
-      headers: { Accept: "application/json" }
-    });
-
-    if (!res.ok) throw new Error("submit failed");
-
-    setStatus("status_ok", "ok");
-    form.reset();
-  } catch (_err) {
-    setStatus("status_fail", "error");
-  }
-}
-
 document.querySelectorAll(".lang-btn").forEach((btn) => {
   btn.addEventListener("click", () => setLang(btn.dataset.lang || "zh"));
 });
 
 const leadForm = document.getElementById("lead-form");
-if (leadForm) leadForm.addEventListener("submit", submitLeadForm);
+if (leadForm) {
+  leadForm.action = `https://formsubmit.co/${encodeURIComponent(FORM_RECEIVER_EMAIL)}`;
+  leadForm.method = "POST";
+  leadForm.addEventListener("submit", (event) => {
+    if (!leadForm.checkValidity()) {
+      event.preventDefault();
+      setStatus("status_invalid", "error");
+      leadForm.reportValidity();
+      return;
+    }
+    setStatus("status_sending", "pending");
+  });
+}
 
 setLang("zh");
 

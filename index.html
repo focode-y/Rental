@@ -41,7 +41,6 @@
     <div class="container header-inner">
       <a href="#" class="brand">
         <img src="image/logo.png" alt="Try Try logo" />
-        <span>Try</span>Try
       </a>
       <nav class="nav">
         <a href="#services" data-i18n="nav_services">服务</a>
@@ -250,17 +249,19 @@
           <h2 data-i18n="contact_title">提交大阪房源信息，48小时内给你执行方案</h2>
           <p data-i18n="contact_sub">支持中文 / 日本語 / English。表单将直接发送到你的接收邮箱。</p>
         </div>
-        <form id="lead-form" class="contact-form" novalidate>
-          <label data-i18n="form_name">姓名
+        <form id="lead-form" class="contact-form" method="POST" action="https://formsubmit.co/xiaoyawang582@gmail.com" novalidate>
+          <label><span data-i18n="form_name">姓名</span>
             <input type="text" name="name" placeholder="例如：王先生 / Mr. Wang" required />
           </label>
-          <label data-i18n="form_contact">联系方式
+          <label><span data-i18n="form_contact">联系方式</span>
             <input type="text" name="contact" placeholder="电话 / 微信 / WhatsApp / Email" required />
           </label>
-          <label data-i18n="form_asset">房源信息
+          <label><span data-i18n="form_asset">房源信息</span>
             <textarea name="asset" rows="4" placeholder="区域、户型、套数、预计上线时间" required></textarea>
           </label>
           <input type="hidden" name="city" value="Osaka" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_template" value="table" />
           <button type="submit" class="btn btn-block" data-i18n="form_btn">提交咨询</button>
           <p id="form-status" class="form-status" aria-live="polite"></p>
         </form>

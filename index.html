@@ -50,9 +50,10 @@
         <a href="#faq" data-i18n="nav_faq">FAQ</a>
       </nav>
       <div class="lang-switch">
-        <button type="button" class="lang-btn active" data-lang="zh">中文</button>
+        <button type="button" class="lang-btn active" data-lang="zh">简体中文</button>
+        <button type="button" class="lang-btn" data-lang="hk">繁體中文</button>
         <button type="button" class="lang-btn" data-lang="ja">日本語</button>
-        <button type="button" class="lang-btn" data-lang="en">EN</button>
+        <button type="button" class="lang-btn" data-lang="en">English</button>
       </div>
       <a class="btn btn-small" href="#contact" data-i18n="nav_cta">预约咨询</a>
     </div>
@@ -220,7 +221,7 @@
     </section>
 
     <section id="benchmarks" class="section container reveal">
-      <div class="section-head"><p class="eyebrow">Osaka Portfolio Proof</p><h2 data-i18n="bench_title">大阪在管30+房源｜运营实绩</h2></div>
+      <div class="section-head"><p class="eyebrow">Osaka Portfolio Proof</p><h2 data-i18n="bench_title">大阪在管30+房源｜運營實績</h2></div>
       <div id="stats-strip" class="stats-strip"></div>
       <div id="district-grid" class="cards two benchmark-list"></div>
       <div class="section-head section-head-tight">
@@ -228,7 +229,7 @@
       </div>
       <div id="unit-grid" class="cards three benchmark-list"></div>
       <div class="section-head section-head-tight">
-        <h3 data-i18n="reviews_title">业主评价截图墙</h3>
+        <h3 data-i18n="reviews_title">客戶評價</h3>
       </div>
       <div id="review-grid" class="cards three review-grid"></div>
     </section>
@@ -248,6 +249,17 @@
           <p class="eyebrow">Contact</p>
           <h2 data-i18n="contact_title">提交大阪房源信息，48小时内给你执行方案</h2>
           <p data-i18n="contact_sub">支持中文 / 日本語 / English。表单将直接发送到你的接收邮箱。</p>
+          <div class="contact-quick">
+            <a class="quick-link" href="tel:06-7777-5524">
+              <span data-i18n="quick_phone_label">电话咨询</span>
+              <strong>06-7777-5524</strong>
+              <em data-i18n="quick_phone_hours">接待时间：周一至周五 9:00-18:00</em>
+            </a>
+            <a class="quick-link" href="mailto:admin@trytry.jp">
+              <span data-i18n="quick_email_label">邮件联系</span>
+              <strong>admin@trytry.jp</strong>
+            </a>
+          </div>
         </div>
         <form id="lead-form" class="contact-form" method="POST" action="https://formsubmit.co/admin@trytry.jp" novalidate>
           <label><span data-i18n="form_name">姓名</span>
@@ -273,17 +285,17 @@
     <div class="container footer-inner">
       <div class="footer-company">
         <h3>Try Try</h3>
-        <p>专注日本大阪民宿管理，合法牌照，提供中文服务。</p>
+        <p data-i18n="footer_desc">专注日本大阪民宿管理，合法牌照，提供中文服务。</p>
       </div>
       <div class="footer-contact">
-        <p>总部：日本大阪市</p>
-        <p>日本：06-7777-5524</p>
-        <p>香港：+852 9086 0863</p>
-        <p>邮箱：admin@trytry.jp</p>
+        <p data-i18n="footer_hq">总部：日本大阪市</p>
+        <p data-i18n="footer_jp">日本：06-7777-5524</p>
+        <p data-i18n="footer_hk">香港：+852 9086 0863</p>
+        <p data-i18n="footer_email">邮箱：admin@trytry.jp</p>
       </div>
     </div>
     <div class="container footer-copy">
-      <p>© <span id="year"></span> Try Try. All Rights Reserved.</p>
+      <p data-i18n="footer_copy">© <span id="year"></span> Try Try. All Rights Reserved.</p>
     </div>
   </footer>
   <script src="data.js"></script>

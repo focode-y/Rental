@@ -27,8 +27,35 @@ const i18n = {
     lang_1: "日语", lang_2: "英语", lang_3: "普通话和粤语", lang_4: "繁体中文", lang_5: "韩语", lang_6: "法语", lang_7: "波兰语", lang_8: "马来语",
     bench_title: "大阪在管30+房源｜运营实绩", case_title: "真实案例", reviews_title: "客户评价",
     faq_title: "常见问题", f1_q: "业主不在日本，能管好吗？", f1_a: "可以。你远程决策，我们在大阪本地执行交付，周报同步经营数据。", f2_q: "多久能进入稳定收益期？", f2_a: "通常上线后 1-2 个月进入稳定区间，建议以 90 天作为完整评估周期。", f3_q: "费用如何计算？", f3_a: "采用基础管理费 + 绩效提成组合，按房型、位置和目标客群定价。",
-    contact_title: "提交大阪房源信息，48小时内给你执行方案", contact_sub: "支持中文 / 日本語 / English。", form_name: "姓名", form_contact: "联系方式", form_asset: "房源信息", form_btn: "提交咨询",
+    contact_title: "提交大阪房源信息，48小时内给你执行方案", contact_sub: "支持中文 / 日本語 / English。", quick_phone_label: "电话咨询", quick_phone_hours: "接待时间：周一至周五 9:00-18:00", quick_email_label: "邮件联系", form_name: "姓名", form_contact: "联系方式", form_asset: "房源信息", form_btn: "提交咨询",
+    footer_desc: "专注日本大阪民宿管理，合法牌照，提供中文服务。", footer_hq: "总部：日本大阪市", footer_jp: "日本：06-7777-5524", footer_hk: "香港：+852 9086 0863", footer_email: "邮箱：admin@trytry.jp", footer_copy: "© <span id=\"year\"></span> Try Try. All Rights Reserved.",
     status_sending: "正在提交，请稍候...", status_ok: "提交成功，我们会尽快联系你。", status_fail: "提交失败，请稍后重试或更换网络。", status_invalid: "请先完整填写必填项。"
+  },
+  hk: {
+    nav_services: "服務", nav_advantage: "優勢", nav_pricing: "價格", nav_process: "流程", nav_faq: "FAQ", nav_cta: "預約諮詢",
+    hero_title: "大阪民宿代營運、合規營運<br/>收益最大化一站式服務", hero_sub: "我們只做大阪。圍繞法令合規、平台營運、保潔品控、財務復盤四個模組，為海外業主提供可執行、可追蹤、可交付的民宿經營方案。", hero_cta_1: "獲取大阪方案", hero_cta_2: "查看30+在管實績",
+    hero_k1_t: "90天啟動窗口", hero_k1_d: "按週里程碑推進，明確每個交付節點。", hero_k2_t: "多平台集中管控", hero_k2_d: "統一管理庫存、房態、房價與渠道策略。", hero_k3_t: "大阪本地執行", hero_k3_d: "清掃、巡檢、補給、突發處理全鏈路落地。",
+    services_title: "大阪專屬民宿代理服務", s1_t: "開業與合規", s1_d: "物業可行性評估、合規路徑建議、空間配置與上線資料製作。", s2_t: "日常營運", s2_d: "客服應答、入住引導、保潔排班、異常工單、評價管理。", s3_t: "收益管理", s3_d: "動態定價、節假日策略、連住規則與淡季入住提升。",
+    pricing_eyebrow: "Transparent Pricing",
+    adv_title: "透明定價，按服務內容靈活配置", adv_sub: "不同項目的規模、定位與收益不同，我們將根據需求，為您制定營運方案與費用結構。", adv_l1: "採用按實際房費收入比例計費的模式", adv_l2: "根據服務內容與管理深度不同，靈活配置", adv_l3: "費用通常為房費收入的25%-35%",
+    panel_t: "大阪標準託管包", panel_d: "適合計劃長期持有大阪民宿資產的業主", panel_l1: "開業清單與預算模型", panel_l2: "OTA上線與房態系統搭建", panel_l3: "客服與保潔SOP執行", panel_l4: "月度經營復盤與調價建議", panel_cta: "預約大阪資產評估",
+    process_title: "合作流程", p1_t: "資產診斷", p1_d: "確認大阪區域、面積、物業約束與收益目標。", p2_t: "方案報價", p2_d: "輸出開業計劃、預算區間、代營運費率。", p3_t: "上線營運", p3_d: "完成上架、接待、客服、保潔與巡檢體系。", p4_t: "持續增收", p4_d: "按週看數據，按月調策略，按季升級產品。",
+    ops_title: "將一切交給我們，從準備到營運",
+    ops_1_t: "空間設計與裝修落地", ops_1_d: "結合市場定位與目標客群，提供功能動線優化與風格設計，提升空間體驗。",
+    ops_2_t: "民宿牌照申請", ops_2_d: "協助辦理住宅宿泊事業法相關備案及消防、行政手續，確保合法上線。",
+    ops_3_t: "圖片與影片拍攝", ops_3_d: "提供高品質照片與影片製作，優化房源展示效果，提升轉化率。",
+    ops_4_t: "上架 Airbnb 等平台", ops_4_d: "完成 Airbnb 等主流平台的入駐與價格策略制定，提升曝光與收益表現。",
+    ops_5_t: "客服營運與緊急響應", ops_5_d: "提供多語種客服接待與突發情況響應，保障住客體驗與營運穩定。",
+    ops_6_t: "清掃與消耗品管理", ops_6_d: "標準化清掃流程與日常耗材補給，保持房源品質與長期穩定營運。",
+    ops_7_t: "客訴處理與評價維護", ops_7_d: "專業處理投訴問題，優化住客溝通，提升評分與品牌信譽。",
+    ops_8_t: "收益監控與持續優化", ops_8_d: "透過入住率與價格數據分析，持續優化營運策略，實現收益最大化。",
+    lang_title: "全年365天，每天24小時提供多語言支援（8種語言）", lang_desc: "為了吸引來自世界各地的客戶，我們提供全年無休、24小時在線的多語言客服支援，覆蓋諮詢、預訂確認、入住指引和突發問題處理，幫助你的房源在國際平台上保持更高轉化率與更穩定評價。",
+    lang_1: "日語", lang_2: "英語", lang_3: "普通話和粵語", lang_4: "繁體中文", lang_5: "韓語", lang_6: "法語", lang_7: "波蘭語", lang_8: "馬來語",
+    bench_title: "大阪在管30+房源｜營運實績", case_title: "真實案例", reviews_title: "客戶評價",
+    faq_title: "常見問題", f1_q: "業主不在日本，能管好嗎？", f1_a: "可以。你遠程決策，我們在大阪本地執行交付，週報同步經營數據。", f2_q: "多久能進入穩定收益期？", f2_a: "通常上線後 1-2 個月進入穩定區間，建議以 90 天作為完整評估週期。", f3_q: "費用如何計算？", f3_a: "採用基礎管理費 + 績效提成組合，按房型、位置和目標客群定價。",
+    contact_title: "提交大阪房源資訊，48小時內給你執行方案", contact_sub: "支援中文 / 日本語 / English。", quick_phone_label: "電話諮詢", quick_phone_hours: "接待時間：週一至週五 9:00-18:00", quick_email_label: "電郵聯絡", form_name: "姓名", form_contact: "聯絡方式", form_asset: "房源資訊", form_btn: "提交諮詢",
+    footer_desc: "專注日本大阪民宿管理，合法牌照，提供中文服務。", footer_hq: "總部：日本大阪市", footer_jp: "日本：06-7777-5524", footer_hk: "香港：+852 9086 0863", footer_email: "電郵：admin@trytry.jp", footer_copy: "© <span id=\"year\"></span> Try Try. All Rights Reserved.",
+    status_sending: "正在提交，請稍候...", status_ok: "提交成功，我們會盡快聯絡你。", status_fail: "提交失敗，請稍後重試或更換網路。", status_invalid: "請先完整填寫必填項。"
   },
   ja: {
     nav_services: "サービス", nav_advantage: "強み", nav_pricing: "料金", nav_process: "流れ", nav_faq: "FAQ", nav_cta: "無料相談",
@@ -52,11 +79,12 @@ const i18n = {
     lang_1: "日本語", lang_2: "英語", lang_3: "中国語（普通話・広東語）", lang_4: "繁体字中国語", lang_5: "韓国語", lang_6: "フランス語", lang_7: "ポーランド語", lang_8: "マレー語",
     bench_title: "大阪30件超の運営実績", case_title: "実際の事例", reviews_title: "顧客レビュー",
     faq_title: "よくある質問", f1_q: "オーナーが日本にいなくても運営可能ですか？", f1_a: "可能です。意思決定は遠隔で、実行は大阪現地で行います。", f2_q: "安定収益までの目安は？", f2_a: "通常は運用開始後1-2か月で安定化し、90日で評価します。", f3_q: "料金体系は？", f3_a: "基本管理費 + 成果連動で、物件条件に応じて設計します。",
-    contact_title: "大阪物件情報を送信ください。48時間以内に実行案を提示", contact_sub: "中文 / 日本語 / English 対応。", form_name: "お名前", form_contact: "連絡先", form_asset: "物件情報", form_btn: "送信",
+    contact_title: "大阪物件情報を送信ください。48時間以内に実行案を提示", contact_sub: "中文 / 日本語 / English 対応。", quick_phone_label: "電話で相談", quick_phone_hours: "受付時間：月〜金 9:00-18:00", quick_email_label: "メールで連絡", form_name: "お名前", form_contact: "連絡先", form_asset: "物件情報", form_btn: "送信",
+    footer_desc: "大阪の民泊運営に特化。合法ライセンスと中国語対応を提供。", footer_hq: "本社：大阪市（日本）", footer_jp: "日本：06-7777-5524", footer_hk: "香港：+852 9086 0863", footer_email: "メール：admin@trytry.jp", footer_copy: "© <span id=\"year\"></span> Try Try. All Rights Reserved.",
     status_sending: "送信中です。少々お待ちください...", status_ok: "送信完了しました。担当よりご連絡します。", status_fail: "送信に失敗しました。時間をおいて再試行してください。", status_invalid: "必須項目を入力してください。"
   },
   en: {
-    nav_services: "Services", nav_advantage: "Advantages", nav_pricing: "Pricing", nav_process: "Process", nav_faq: "FAQ", nav_cta: "Consult",
+    nav_services: "Services", nav_advantage: "Advantages", nav_pricing: "Pricing", nav_process: "Process", nav_faq: "FAQ", nav_cta: "Contact",
     hero_title: "Osaka Minpaku Management<br/>Compliance-led launch, revenue-led growth", hero_sub: "We focus on Osaka only. Our integrated model combines legal setup, OTA operations, cleaning QA, and performance analytics for consistent execution.", hero_cta_1: "Get Osaka Proposal", hero_cta_2: "View 30+ Managed Results",
     hero_k1_t: "90-day launch window", hero_k1_d: "Weekly milestones with clear deliverables.", hero_k2_t: "Unified OTA control", hero_k2_d: "Centralized inventory, pricing, and channel strategy.", hero_k3_t: "On-ground Osaka team", hero_k3_d: "Cleaning, inspections, replenishment, and incident response.",
     services_title: "Osaka-Focused Management Services", s1_t: "Opening & Compliance", s1_d: "Feasibility check, compliance route, setup planning, listing assets.", s2_t: "Daily Operations", s2_d: "Guest messaging, check-in flow, cleaning schedule, issue handling, review ops.", s3_t: "Revenue Management", s3_d: "Dynamic pricing, holiday playbook, length-of-stay rules, low-season demand lift.",
@@ -77,7 +105,8 @@ const i18n = {
     lang_1: "Japanese", lang_2: "English", lang_3: "Mandarin & Cantonese", lang_4: "Traditional Chinese", lang_5: "Korean", lang_6: "French", lang_7: "Polish", lang_8: "Malay",
     bench_title: "30+ Managed Units in Osaka | Operating Proof", case_title: "Real Cases", reviews_title: "Customer Reviews",
     faq_title: "FAQ", f1_q: "Can this work if the owner is overseas?", f1_a: "Yes. You approve key decisions remotely; we execute operations on-site in Osaka.", f2_q: "How long to reach stable performance?", f2_a: "Most units stabilize within 1-2 months after launch, measured over a 90-day cycle.", f3_q: "How is pricing structured?", f3_a: "Base management fee plus performance component, tailored by asset profile.",
-    contact_title: "Send your Osaka property brief. We reply within 48 hours.", contact_sub: "Chinese / Japanese / English support.", form_name: "Name", form_contact: "Contact", form_asset: "Property Brief", form_btn: "Submit",
+    contact_title: "Send your Osaka property brief. We reply within 48 hours.", contact_sub: "Chinese / Japanese / English support.", quick_phone_label: "Call Us", quick_phone_hours: "Service hours: Mon-Fri 9:00-18:00", quick_email_label: "Email Us", form_name: "Name", form_contact: "Contact", form_asset: "Property Brief", form_btn: "Submit",
+    footer_desc: "Focused on Osaka minpaku management with licensed, Chinese-friendly local operations.", footer_hq: "HQ: Osaka, Japan", footer_jp: "Japan: 06-7777-5524", footer_hk: "Hong Kong: +852 9086 0863", footer_email: "Email: admin@trytry.jp", footer_copy: "© <span id=\"year\"></span> Try Try. All Rights Reserved.",
     status_sending: "Submitting, please wait...", status_ok: "Submitted successfully. We will contact you soon.", status_fail: "Submission failed. Please try again later.", status_invalid: "Please fill in all required fields."
   }
 };
@@ -138,7 +167,7 @@ function renderPortfolio(lang) {
 function setLang(lang) {
   currentLang = lang;
   const dict = i18n[lang] || i18n.zh;
-  document.documentElement.lang = lang === "zh" ? "zh-CN" : lang;
+  document.documentElement.lang = lang === "zh" ? "zh-CN" : (lang === "hk" ? "zh-HK" : lang);
 
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const key = el.getAttribute("data-i18n");

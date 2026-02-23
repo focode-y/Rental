@@ -29,6 +29,36 @@
       { quote: "每月复盘很实用，能看到改价和规则调整带来的实际增益。", source: "业主F | 大阪多套持有" }
     ]
   },
+  hk: {
+    stats: [
+      { value: "30+", label: "大阪在管房源" },
+      { value: "87%", label: "近90天平均入住率" },
+      { value: "JPY 17,800", label: "平均ADR" },
+      { value: "98%", label: "清潔質檢達標率" }
+    ],
+    districts: [
+      { title: "難波商圈", desc: "在管 12 套 | 1K / 1LDK 主力 | 高頻短住客群" },
+      { title: "心齋橋商圈", desc: "在管 8 套 | 設計感房型 | 高評分回購客群" },
+      { title: "梅田商圈", desc: "在管 7 套 | 商旅需求佔比高 | 平日入住穩定" },
+      { title: "天王寺商圈", desc: "在管 6 套 | 家庭客與連住客佔比高" }
+    ],
+    units: [
+      { title: "難波 1LDK A1", desc: "可住4人 | 近30天入住率 89%", image: "image/room-1.jpg" },
+      { title: "心齋橋 Studio B2", desc: "可住2人 | 商圈核心 | 近30天入住率 92%", image: "image/room-2.jpg" },
+      { title: "梅田 2DK C3", desc: "可住5人 | 商旅友好 | 近30天入住率 85%", image: "image/room-3.jpg" },
+      { title: "天王寺 Family D1", desc: "可住6人 | 家庭配置 | 近30天入住率 83%", image: "image/room-4.jpg" },
+      { title: "難波 Loft E4", desc: "可住3人 | 年輕客群偏好 | 近30天入住率 90%", image: "image/room-5.jpeg" },
+      { title: "梅田 Compact F2", desc: "可住2人 | 高周轉產品 | 近30天入住率 88%", image: "image/room-6.jpg" }
+    ],
+    reviews: [
+      { quote: "第一次把大阪房源交給代營運，最滿意的是回應速度。深夜突發也有人處理，住客評分更穩定。", source: "業主A | 難波1LDK" },
+      { quote: "價格策略執行很細，週末和展會檔期調價及時。上線兩個月後，入住率和單晚收益都高於預期。", source: "業主B | 梅田2DK" },
+      { quote: "清潔和補給管理標準化後，差評明顯減少。人在海外也能透過週報掌握經營情況。", source: "業主C | 心齋橋Studio" },
+      { quote: "多語言客服能力很關鍵，海外客人的諮詢轉化明顯提升，溝通效率更高。", source: "業主D | 天王寺家庭房" },
+      { quote: "從接待到巡檢責任清晰、可追蹤，執行穩定性比自管階段提升很多。", source: "業主E | 難波Loft" },
+      { quote: "每月復盤很實用，能看到改價和規則調整帶來的實際增益。", source: "業主F | 大阪多套持有" }
+    ]
+  },
   ja: {
     stats: [
       { value: "30+", label: "大阪の運営管理件数" },

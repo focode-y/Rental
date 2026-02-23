@@ -24,8 +24,8 @@ body { margin: 0; color: var(--ink); background: var(--bg); font-family: "Noto S
   gap: 0;
 }
 .brand img {
-  width: 42px;
-  height: 42px;
+  width: 56px;
+  height: 56px;
   object-fit: contain;
   border-radius: 6px;
 }
@@ -228,7 +228,7 @@ textarea:focus {
 @media (max-width: 768px) {
   .header-inner { grid-template-columns: 1fr auto auto; gap: 10px; justify-items: start; }
   .brand { font-size: 1.08rem; }
-  .brand img { width: 34px; height: 34px; }
+  .brand img { width: 44px; height: 44px; }
   .lang-switch { grid-column: 2; grid-row: 1; order: 1; }
   .header-inner .btn-small { grid-column: 3; grid-row: 1; order: 2; margin-left: 0; justify-self: end; }
   .nav {
@@ -258,6 +258,32 @@ textarea:focus {
   .flow-row { grid-template-columns: 1fr; }
   .flow-card { min-height: 0; padding: 16px 14px; }
   .unit-desc { white-space: normal; overflow: visible; text-overflow: clip; }
+  .lang-grid {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+  .lang-grid::-webkit-scrollbar { height: 6px; }
+  .lang-grid::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 999px; }
+  .lang-item {
+    flex: 0 0 122px;
+    padding: 10px 8px;
+    border-radius: 12px;
+    scroll-snap-align: start;
+  }
+  .flag-img {
+    width: 38px;
+    height: 26px;
+    border-radius: 4px;
+  }
+  .lang-item p {
+    margin-top: 6px;
+    font-size: 0.84rem;
+    line-height: 1.25;
+  }
   .section { padding: 44px 0; }
   .reveal,
   .reveal.in {

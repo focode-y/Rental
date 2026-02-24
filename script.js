@@ -9,7 +9,7 @@ const i18n = {
     nav_services: "服务", nav_advantage: "优势", nav_pricing: "价格", nav_process: "流程", nav_faq: "FAQ", nav_cta: "预约咨询",
     hero_title: "民宿代运营、合规运营<br/>收益最大化一站式服务", hero_sub: "我们专注于民宿经营，从合规办理、平台运营、保洁管理到财务复盘四个方面，为业主提供清晰可执行、过程可追踪、结果可交付的运营方案。", hero_cta_1: "获取大阪方案", hero_cta_2: "查看300+在管实绩",
     hero_k1_t: "90天启动窗口", hero_k1_d: "按周里程碑推进，明确每个交付节点。", hero_k2_t: "多平台集中管控", hero_k2_d: "统一管理库存、房态、房价与渠道策略。", hero_k3_t: "大阪本地执行", hero_k3_d: "清扫、巡检、补给、突发处理全链路落地。",
-    services_title: "专属民宿代理服务", s1_t: "开业与合规", s1_d: "物业可行性评估、合规路径建议、空间配置与上线资料制作。", s2_t: "日常运营", s2_d: "客服应答、入住引导、保洁排班、异常工单、评价管理。", s3_t: "收益管理", s3_d: "动态定价、节假日策略、连住规则与淡季入住提升。",
+    services_title: "大阪专属民宿代理服务", s1_t: "开业与合规", s1_d: "物业可行性评估、合规路径建议、空间配置与上线资料制作。", s2_t: "日常运营", s2_d: "客服应答、入住引导、保洁排班、异常工单、评价管理。", s3_t: "收益管理", s3_d: "动态定价、节假日策略、连住规则与淡季入住提升。",
     pricing_eyebrow: "Transparent Pricing",
     adv_title: "透明定价，按服务内容灵活配置", adv_sub: "不同项目的规模、定位与收益不同，我们将根据需求，为您制定运营方案与费用结构。", adv_l1: "采用按实际房费收入比例计费的模式", adv_l2: "根据服务内容与管理深度不同，灵活配置", adv_l3: "费用通常为房费收入的25%-35%",
     panel_t: "大阪标准托管包", panel_d: "适合计划长期持有大阪民宿资产的业主", panel_l1: "开业清单与预算模型", panel_l2: "OTA上线与房态系统搭建", panel_l3: "客服与保洁SOP执行", panel_l4: "月度经营复盘与调价建议", panel_cta: "预约大阪资产评估",
@@ -232,4 +232,3 @@ if (GA_MEASUREMENT_ID && !GA_MEASUREMENT_ID.includes("XXXXXXXXXX")) {
   gtag("js", new Date());
   gtag("config", GA_MEASUREMENT_ID);
 }
-

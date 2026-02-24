@@ -22,6 +22,9 @@ When this skill is active, every actionable reply must include:
 4. Expected result
 - State 1-2 lines of success signals so user can verify.
 
+5. Pre-check before any fix
+- Always run a full scan on `index.html`, `script.js`, and `data.js` first.
+
 ## Response style
 
 - Chinese-first wording.

@@ -263,13 +263,13 @@
         </div>
         <form id="lead-form" class="contact-form" method="POST" action="https://formsubmit.co/admin@trytry.jp" novalidate>
           <label><span data-i18n="form_name">姓名</span>
-            <input type="text" name="name" placeholder="例如：王先生 / Mr. Wang" required />
+            <input type="text" name="name" data-i18n-placeholder="form_name_ph" placeholder="" required />
           </label>
           <label><span data-i18n="form_contact">联系方式</span>
-            <input type="text" name="contact" placeholder="电话 / 微信 / WhatsApp / Email" required />
+            <input type="text" name="contact" data-i18n-placeholder="form_contact_ph" placeholder="" required />
           </label>
           <label><span data-i18n="form_asset">房源信息</span>
-            <textarea name="asset" rows="4" placeholder="区域、户型、套数、预计上线时间" required></textarea>
+            <textarea name="asset" rows="4" data-i18n-placeholder="form_asset_ph" placeholder="" required></textarea>
           </label>
           <input type="hidden" name="city" value="Osaka" />
           <input type="hidden" name="_captcha" value="false" />

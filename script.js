@@ -59,7 +59,7 @@ const i18n = {
   },
   ja: {
     nav_services: "サービス", nav_advantage: "強み", nav_pricing: "料金", nav_process: "流れ", nav_faq: "FAQ", nav_cta: "無料相談",
-    hero_title: "大阪民泊運営代行<br/>法令対応と収益改善を一体で", hero_sub: "私たちは民泊運営に特化し、法令対応、プラットフォーム運用、清掃管理、財務レビューの4つの側面から、実行しやすく、進捗を追跡でき、成果を明確に確認できる運営プランを提供します。", hero_cta_1: "大阪向け提案を受ける", hero_cta_2: "30件超の運営実績を見る",
+    hero_title: "民泊運営代行<br/>法令対応と収益改善を一体で", hero_sub: "私たちは民泊運営に特化し、法令対応、プラットフォーム運用、清掃管理、財務レビューの4つの側面から、実行しやすく、進捗を追跡でき、成果を明確に確認できる運営プランを提供します。", hero_cta_1: "大阪向け提案を受ける", hero_cta_2: "30件超の運営実績を見る",
     hero_k1_t: "90日で運用開始", hero_k1_d: "週次マイルストーンで進行管理。", hero_k2_t: "複数OTAを一元管理", hero_k2_d: "在庫、価格、販売戦略を統合。", hero_k3_t: "大阪現地チーム", hero_k3_d: "清掃、巡回、補充、緊急対応を現地で実施。",
     services_title: "大阪特化の民泊運営サービス", s1_t: "開業・法令対応", s1_d: "物件診断、法令ルート設計、空間準備、掲載素材制作。", s2_t: "日次オペレーション", s2_d: "ゲスト対応、チェックイン案内、清掃手配、異常対応、レビュー管理。", s3_t: "収益マネジメント", s3_d: "動的価格、繁忙期施策、連泊ルール、閑散期対策。",
     pricing_eyebrow: "Transparent Pricing",
@@ -85,7 +85,7 @@ const i18n = {
   },
   en: {
     nav_services: "Services", nav_advantage: "Advantages", nav_pricing: "Pricing", nav_process: "Process", nav_faq: "FAQ", nav_cta: "Contact",
-    hero_title: "Osaka Minpaku Management<br/>Compliance-led launch, revenue-led growth", hero_sub: "We specialize in minpaku operations, covering four areas: compliance setup, platform operations, cleaning management, and financial review. We deliver plans that are clear to execute, trackable in process, and measurable in outcomes.", hero_cta_2: "View 30+ Managed Results",
+    hero_title: "Minpaku Management<br/>Compliance-led launch, revenue-led growth", hero_sub: "We specialize in minpaku operations, covering four areas: compliance setup, platform operations, cleaning management, and financial review. We deliver plans that are clear to execute, trackable in process, and measurable in outcomes.", hero_cta_2: "View 30+ Managed Results",
     hero_k1_t: "90-day launch window", hero_k1_d: "Weekly milestones with clear deliverables.", hero_k2_t: "Unified OTA control", hero_k2_d: "Centralized inventory, pricing, and channel strategy.", hero_k3_t: "On-ground Osaka team", hero_k3_d: "Cleaning, inspections, replenishment, and incident response.",
     services_title: "Osaka-Focused Management Services", s1_t: "Opening & Compliance", s1_d: "Feasibility check, compliance route, setup planning, listing assets.", s2_t: "Daily Operations", s2_d: "Guest messaging, check-in flow, cleaning schedule, issue handling, review ops.", s3_t: "Revenue Management", s3_d: "Dynamic pricing, holiday playbook, length-of-stay rules, low-season demand lift.",
     pricing_eyebrow: "Transparent Pricing",

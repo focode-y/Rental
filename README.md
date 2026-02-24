@@ -79,3 +79,5 @@ const FORM_RECEIVER_EMAIL = "admin@trytry.jp";
 
 - 项目当前未引入打包工具与依赖管理。
 - 如需接入统计，请在 `script.js` 中配置 `GA_MEASUREMENT_ID`。
+
+Build trigger: 2026-02-24 12:25:30

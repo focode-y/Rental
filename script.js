@@ -7,7 +7,7 @@ const GA_MEASUREMENT_ID = "G-XXXXXXXXXX";
 const i18n = {
   zh: {
     nav_services: "服务", nav_advantage: "优势", nav_pricing: "价格", nav_process: "流程", nav_faq: "FAQ", nav_cta: "预约咨询",
-    hero_title: "大阪民宿代运营、合规运营<br/>收益最大化一站式服务", hero_sub: "我们只做大阪。围绕法令合规、平台运营、保洁品控、财务复盘四个模块，为海外业主提供可执行、可追踪、可交付的民宿经营方案。", hero_cta_1: "获取大阪方案", hero_cta_2: "\u67E5\u770B300+\u5728\u7BA1\u5B9E\u7EE9",
+    hero_title: "大阪民宿代运营、合规运营<br/>收益最大化一站式服务", hero_sub: "围绕法令合规、平台运营、保洁品控、财务复盘四个模块，为海外业主提供可执行、可追踪、可交付的民宿经营方案。", hero_cta_1: "获取大阪方案", hero_cta_2: "\u67E5\u770B300+\u5728\u7BA1\u5B9E\u7EE9",
     hero_k1_t: "90天启动窗口", hero_k1_d: "按周里程碑推进，明确每个交付节点。", hero_k2_t: "多平台集中管控", hero_k2_d: "统一管理库存、房态、房价与渠道策略。", hero_k3_t: "大阪本地执行", hero_k3_d: "清扫、巡检、补给、突发处理全链路落地。",
     services_title: "大阪专属民宿代理服务", s1_t: "开业与合规", s1_d: "物业可行性评估、合规路径建议、空间配置与上线资料制作。", s2_t: "日常运营", s2_d: "客服应答、入住引导、保洁排班、异常工单、评价管理。", s3_t: "收益管理", s3_d: "动态定价、节假日策略、连住规则与淡季入住提升。",
     pricing_eyebrow: "Transparent Pricing",
@@ -33,7 +33,7 @@ const i18n = {
   },
   hk: {
     nav_services: "服務", nav_advantage: "優勢", nav_pricing: "價格", nav_process: "流程", nav_faq: "FAQ", nav_cta: "預約諮詢",
-    hero_title: "大阪民宿代營運、合規營運<br/>收益最大化一站式服務", hero_sub: "我們只做大阪。圍繞法令合規、平台營運、保潔品控、財務復盤四個模組，為海外業主提供可執行、可追蹤、可交付的民宿經營方案。", hero_cta_1: "獲取大阪方案", hero_cta_2: "\u67E5\u770B300+\u5728\u7BA1\u5BE6\u7E3E",
+    hero_title: "大阪民宿代營運、合規營運<br/>收益最大化一站式服務", hero_sub: "圍繞法令合規、平台營運、保潔品控、財務復盤四個模組，為海外業主提供可執行、可追蹤、可交付的民宿經營方案。", hero_cta_1: "獲取大阪方案", hero_cta_2: "\u67E5\u770B300+\u5728\u7BA1\u5BE6\u7E3E",
     hero_k1_t: "90天啟動窗口", hero_k1_d: "按週里程碑推進，明確每個交付節點。", hero_k2_t: "多平台集中管控", hero_k2_d: "統一管理庫存、房態、房價與渠道策略。", hero_k3_t: "大阪本地執行", hero_k3_d: "清掃、巡檢、補給、突發處理全鏈路落地。",
     services_title: "大阪專屬民宿代理服務", s1_t: "開業與合規", s1_d: "物業可行性評估、合規路徑建議、空間配置與上線資料製作。", s2_t: "日常營運", s2_d: "客服應答、入住引導、保潔排班、異常工單、評價管理。", s3_t: "收益管理", s3_d: "動態定價、節假日策略、連住規則與淡季入住提升。",
     pricing_eyebrow: "Transparent Pricing",
@@ -59,7 +59,7 @@ const i18n = {
   },
   ja: {
     nav_services: "サービス", nav_advantage: "強み", nav_pricing: "料金", nav_process: "流れ", nav_faq: "FAQ", nav_cta: "無料相談",
-    hero_title: "大阪民泊運営代行<br/>法令対応と収益改善を一体で", hero_sub: "大阪エリアに特化した運営代行。法令対応、OTA運用、清掃品質、収益分析を統合し、実行可能な運営体制を提供します。", hero_cta_1: "大阪向け提案を受ける", hero_cta_2: "300+\u4EF6\u306E\u904B\u55B6\u5B9F\u7E3E\u3092\u898B\u308B",
+    hero_title: "大阪民泊運営代行<br/>法令対応と収益改善を一体で", hero_sub: "法令対応、OTA運用、清掃品質、収益分析を統合し、実行可能で追跡可能な運営体制を提供します。", hero_cta_1: "大阪向け提案を受ける", hero_cta_2: "300+\u4EF6\u306E\u904B\u55B6\u5B9F\u7E3E\u3092\u898B\u308B",
     hero_k1_t: "90日で運用開始", hero_k1_d: "週次マイルストーンで進行管理。", hero_k2_t: "複数OTAを一元管理", hero_k2_d: "在庫、価格、販売戦略を統合。", hero_k3_t: "大阪現地チーム", hero_k3_d: "清掃、巡回、補充、緊急対応を現地で実施。",
     services_title: "大阪特化の民泊運営サービス", s1_t: "開業・法令対応", s1_d: "物件診断、法令ルート設計、空間準備、掲載素材制作。", s2_t: "日次オペレーション", s2_d: "ゲスト対応、チェックイン案内、清掃手配、異常対応、レビュー管理。", s3_t: "収益マネジメント", s3_d: "動的価格、繁忙期施策、連泊ルール、閑散期対策。",
     pricing_eyebrow: "Transparent Pricing",
@@ -85,7 +85,7 @@ const i18n = {
   },
   en: {
     nav_services: "Services", nav_advantage: "Advantages", nav_pricing: "Pricing", nav_process: "Process", nav_faq: "FAQ", nav_cta: "Contact",
-    hero_title: "Osaka Minpaku Management<br/>Compliance-led launch, revenue-led growth", hero_sub: "We focus on Osaka only. Our integrated model combines legal setup, OTA operations, cleaning QA, and performance analytics for consistent execution.", hero_cta_1: "Get Osaka Proposal", hero_cta_2: "View 300+ Managed Results",
+    hero_title: "Osaka Minpaku Management<br/>Compliance-led launch, revenue-led growth", hero_sub: "Our integrated model combines legal setup, OTA operations, cleaning QA, and financial reviews to deliver executable, trackable, and reliable operations.", hero_cta_1: "Get Osaka Proposal", hero_cta_2: "View 300+ Managed Results",
     hero_k1_t: "90-day launch window", hero_k1_d: "Weekly milestones with clear deliverables.", hero_k2_t: "Unified OTA control", hero_k2_d: "Centralized inventory, pricing, and channel strategy.", hero_k3_t: "On-ground Osaka team", hero_k3_d: "Cleaning, inspections, replenishment, and incident response.",
     services_title: "Osaka-Focused Management Services", s1_t: "Opening & Compliance", s1_d: "Feasibility check, compliance route, setup planning, listing assets.", s2_t: "Daily Operations", s2_d: "Guest messaging, check-in flow, cleaning schedule, issue handling, review ops.", s3_t: "Revenue Management", s3_d: "Dynamic pricing, holiday playbook, length-of-stay rules, low-season demand lift.",
     pricing_eyebrow: "Transparent Pricing",

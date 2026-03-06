@@ -17,11 +17,25 @@ body { margin: 0; color: var(--ink); background: var(--bg); font-family: "Noto S
 .site-header { position: sticky; top: 0; backdrop-filter: blur(10px); background: rgba(255, 255, 255, 0.92); border-bottom: 1px solid var(--line); z-index: 10; }
 .header-inner { display: grid; grid-template-columns: auto 1fr auto auto; align-items: center; padding: 14px 0; gap: 12px; }
 .brand { color: var(--ink); text-decoration: none; font-family: Outfit, sans-serif; font-weight: 800; font-size: 1.2rem; }
-.brand span { color: var(--brand); }
+.brand span {
+  display: inline-flex;
+  align-items: center;
+  color: #7f1d1d;
+  background: #fff1f2;
+  border: 1px solid #fecdd3;
+  border-radius: 999px;
+  font-family: "Noto Sans SC", "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 0.84rem;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  padding: 7px 11px;
+  transform: none;
+}
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 0;
+  gap: 10px;
 }
 .brand img {
   width: 56px;
@@ -267,6 +281,7 @@ textarea:focus {
   .header-inner { grid-template-columns: 1fr auto auto; gap: 10px; justify-items: start; }
   .brand { font-size: 1.08rem; }
   .brand img { width: 44px; height: 44px; }
+  .brand span { font-size: 0.74rem; padding: 6px 9px; letter-spacing: 0.03em; }
   .lang-switch { grid-column: 2; grid-row: 1; order: 1; }
   .header-inner .btn-small { grid-column: 3; grid-row: 1; order: 2; margin-left: 0; justify-self: end; }
   .nav {

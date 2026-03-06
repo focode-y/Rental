@@ -1,7 +1,0 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
-  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#e5efe2"/><stop offset="1" stop-color="#dcebd7"/></linearGradient></defs>
-  <rect width="1200" height="675" fill="url(#g)"/>
-  <rect x="120" y="120" width="960" height="435" rx="18" fill="#fff" stroke="#c8d6c2"/>
-  <text x="600" y="280" text-anchor="middle" font-size="48" fill="#234" font-family="Arial, sans-serif">Review Screenshot Placeholder</text>
-  <text x="600" y="350" text-anchor="middle" font-size="30" fill="#456" font-family="Arial, sans-serif">Replace with your real Airbnb/Booking review capture</text>
-</svg>
